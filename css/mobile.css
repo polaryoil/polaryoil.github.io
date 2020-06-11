@@ -1,0 +1,401 @@
+#nav-menu-mobile, .navbar-brand:before, .navbar-brand:after {
+	display: none;
+}
+.navbar-brand {
+	position: absolute;
+}
+.navbar-brand-mob {
+	margin: 7px 60px;
+    display: none;
+    position: relative;
+    width: 100%;
+}
+.navbar-header {
+	padding-left: 0;
+	padding-top: 5px;
+}
+.numbr {
+	position: relative;
+    color: #efb814;
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 70px;
+    /*background: rgba(0,0,0,0.1);*/
+}
+#callback {}
+
+#menu-list {
+	width: 100%;
+    /*margin: 60px 50px;*/
+    position: relative;
+}
+#menu-list li {
+    padding: 2px 0;
+    text-transform: uppercase;
+}
+.well1 {
+	text-align: center;
+}
+.well1 h5, .well1 p {
+	text-align: center;
+}
+.info-text {
+	display: inline-block;
+	float: left;
+	width: 470px;
+}
+.info-text p.smaller {
+	font-size: 23px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+.mailform .form-group {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.mailform-sub .mfPlaceHolder {
+	padding-left: 30px;
+}
+.mailform-sub p {
+	display: block;
+	float: none;
+}
+.mailform-sub .mailform .form-group.inputter {
+	width: 385px;
+	margin-left: 0;
+}
+.mailform-sub .mailform .form-group.mfControls {
+	width: 270px;
+}
+.well_foot-1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.well6 {
+    padding-bottom: 28px;
+    padding-top: 42px;
+}
+.well_foot-2 {
+	padding-top: 56px;
+	padding-bottom: 56px;
+}
+footer .rights a img {
+	width: 300px;
+}
+footer copyright {
+    position: absolute;
+	margin-top: 20px;
+    margin-left: 20px;
+}
+.resp-tabs-list li {
+	font-size: 22px;
+}
+.ang_block p {
+	line-height: 22px;
+}
+.mybutton {
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+	color: #efb814;
+	font-size: 18px;
+}
+.mybutton:hover {
+	color:#fff;
+}
+.well4 {
+	padding-bottom: 70px;
+}
+.well11 {
+	padding-top:370px;
+}
+.navbar {
+	top: -370px;
+}
+.head1 .navbar {
+	top: 0;
+}
+.isStuck {
+	background:rgba(0,0,0,0.9);
+}
+.isStuck .navbar-brand {
+	width: 130px;
+}
+.mix {
+	display: inline-block;
+	width: 33%;
+	margin: 0 0.15%;
+}
+figure {
+	margin: 1em 0;
+}
+.resp-tabs-list li + li {
+	padding: 7px 26px;
+}
+
+@media (max-width: 767px) {
+	body {
+		padding-top: 0;
+	}
+	.navbar-default .navbar-brand {
+		display: none;
+	}
+	.navbar-brand-mob{
+		display: block;
+	}
+	.numbr {
+		display: none;
+	}
+	.navbar-toggle {
+	    position: relative;
+	    float: right;
+	    padding: 9px 10px;
+	    margin-top: 8px;
+	    margin-right: 15px;
+	    margin-bottom: 8px;
+	    background-image: none;
+	    border: 1px solid transparent;
+	    background-color: #efb814;
+	    z-index: 1000;
+	}
+	.sr-only {
+	    position: absolute;
+	    width: 1px;
+	    height: 1px;
+	    padding: 0;
+	    margin: -1px;
+	    overflow: hidden;
+	    clip: rect(0,0,0,0);
+	    border: 0;
+	}
+	.navbar-toggle .icon-bar {
+	    display: block;
+	    width: 22px;
+	    height: 2px;
+	    border-radius: 1px;
+	    background-color: #eee;
+	    margin: 3px 0;
+	}
+	#nav-menu-mobile .navbar-nav {
+		width: 100%;
+		text-align: center !important;
+		position: absolute;
+		padding: 0;
+	    background-color: #efb814;
+	    z-index: 1000;
+	    margin: -44px -15px;
+	}
+	.btn-link {
+		width: 150px;
+	}
+	.jumbotron {
+		margin-bottom: 50px;
+	}
+	.mailform-sub {
+		display: block;
+		width: 100%;
+   		text-align: center;
+	}
+	.info-text {
+		width: 250px;
+		text-align: center;
+		float: none;
+	}
+	.mailform-sub .mailform {
+		text-align: center;
+	}
+	.mailform-sub .mailform .form-group.inputter {
+		width: 270px;
+		margin: auto;
+    	display: inline-block;
+	}
+	.mailform-sub .mailform .form-group.mfControls {
+    	display: inline-block;
+    	margin: 30px auto 15px;
+	}
+	.mailform-sub .form-group .btn {
+		padding: 21px 0;
+		width: 100%;
+	}
+	.resp-tabs-list {
+		display: block;
+	}
+	.resp-tabs-list li {
+		width: 100%;
+		display: block;
+		background: #efb814;
+		margin-top: 5px;
+		color: #fff;
+	}
+	.resp-tabs-list .resp-tab-active {
+		border-color: #efb814;
+		background: none;
+		color: #efb814;
+	}
+	.resp-tabs-list li:hover {
+	    background: transparent;
+	    color: #efb814;
+	    border: 1px solid #efb814;
+	}
+	footer .rights a {
+		display: block;
+		width: 100%;
+	}
+	footer copyright {
+    	display: block;
+		width: 90%;
+		margin-left: 0;
+	}
+	footer .rights copyright a {
+		display: inline-block;
+		width: auto;
+	}
+	footer copyright span {
+		float: left;
+	}
+}
+
+
+@media (min-width: 768px) {
+	header .jumbotron p.ins1 {
+		display: block;
+	}
+	header .ins1 {
+		font-size: 12px;
+	}
+	header .jumbotron .head {
+		font-size: 34px;
+	}
+	header .jumbotron .head span {
+		font-size: 20px;
+	}
+	header .btn-link, header a.navbar-brand {
+		width: 180px;
+	}
+	header .jumbotron {
+		bottom: 5%;
+	}
+	header a.navbar-brand {
+		width: 150px;
+	}
+
+	.info-text {
+		width: 100%;
+	}
+	.mailform-sub .mailform {
+		display: block;
+	    width: 100%;
+	    margin: auto;
+	    text-align: center;
+	}
+	.mailform-sub .mailform .form-group.inputter {
+		margin: auto;
+    	display: inline-block;
+	}
+	.mailform-sub .mailform .form-group.mfControls {
+    	display: inline-block;
+    	margin: 0px auto 15px;
+	}
+	.numbr {
+	    display: none;
+	}
+	.isStuck {
+    	display: block !important;
+	}
+
+}
+
+@media (min-width: 992px)  {
+	header .jumbotron {
+		bottom: 11%;
+	}
+	header .jumbotron .head {
+		font-size: 40px;
+	}
+	header .jumbotron .head span {
+		font-size: 20px;
+	}
+	header .btn-link, header a.navbar-brand {
+		width: 150px;
+	}
+	header .ins1 {
+		font-size: 13px;
+	}
+	.thumbnail .caption {
+		margin-bottom: 31px;
+	}
+	.numbr {
+		display: block;
+	    margin-right: 0px;
+	}
+}
+
+@media (min-width: 1200px)  {
+	header .jumbotron {
+		bottom: 10%;
+	}
+	header .btn-link {
+		width: 150px;
+	}
+	header .btn-link {
+	    margin-top: 20px
+	}
+	header a.navbar-brand {
+		width: 180px;
+	}
+	header .jumbotron {
+		bottom: 10%;
+	}
+	header .jumbotron .head {
+    	font-size: 60px;
+	}
+	header .jumbotron .head span {
+		font-size: 40px;
+	}
+	header .ins1 {
+		font-size: 14px;
+	}
+	.well1 h5 {
+		width: 95%;
+	}
+	.numbr {
+		margin-right: 70px;
+	}
+	.info-text {
+		width: 470px;
+	}
+}
+
+@media (min-width: 1400px)  {
+	header .jumbotron {
+		bottom: 15%;
+	}
+	header .jumbotron .head {
+    	font-size: 70px;
+	}
+	header .jumbotron .head span {
+		font-size: 44px;
+	}
+
+}
+
+@media (min-width: 1550px)  {
+	#main-head .jumbotron {
+		bottom: 15%;
+	}
+	#main-head .head {
+		font-size: 85px;
+		line-height: 100px;
+	}
+	#main-head .head span {
+		font-size: 48px;
+	}
+	
+	#main-head .ins1 {
+		font-size: 15px;
+	}
+}

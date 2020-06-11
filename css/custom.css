@@ -1,0 +1,131 @@
+body 
+{
+	background-color: #f1f5f8;
+	/*border-top: 10px solid #2980b9;*/
+}
+
+.portfolio
+{
+	margin: 48px 0;
+}
+
+.portfolio-sorting
+{
+	text-transform: uppercase;	
+	font-size: 16px;
+	margin-bottom: 48px;
+}
+
+.portfolio-sorting li a 
+{
+	color: #808080;
+	text-decoration: none;
+	padding: 6px;
+}
+.portfolio-sorting li a:hover,
+.portfolio-sorting li a.active
+{
+	color: #2980b9;
+	border-bottom: 2px solid #2980b9;
+}
+
+.portfolio-item 
+{
+	margin-bottom: 30px;
+}
+
+
+
+/**************
+	FOOTER
+***************/
+footer
+{
+
+	background-color: #efb814;
+	padding: 24px;
+	font-size: 16px;
+}
+
+footer,
+footer a
+{
+	color: white;
+}
+
+footer a:hover 
+{
+	color: #2980b9;
+}
+
+footer .column ul li 
+{
+	margin-bottom: 6px;
+}
+
+footer .column h4 
+{
+	border-bottom: 2px solid #2980b9;
+	padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+footer .column .glyphicon-chevron-right
+{
+	margin-right: 6px;
+	color: #2980b9;
+}
+
+.social-icons 
+{
+	margin-bottom: 12px;	
+}
+
+.well1 p {text-transform: uppercase !important;}
+.well5 li {height: 100px;}
+.konta {text-transform: uppercase; color: #fff; margin-bottom: 40px;}
+p.contactiki {font-size: 20px; color: #fff; text-align: center;}
+.contactiki img {width: 24px; margin-right: 10px;}
+.nashy_kontakty {margin-bottom: 150px;}
+.well_foot-2 {padding:0;}
+.well_foot-2 a img {width: 160px !important;}
+.well5 li {display: block; position: relative; height: 180px; overflow: hidden;}
+.well5 li h6 {margin: 0;}
+.well5 li img {float: left; border: 1px #efb814 solid; margin-right: 15px;}
+header a.navbar-brand {width: 230px; margin-top: 10px;}
+.isStuck .navbar-brand {width: 200px; margin-top: 0;}
+.clickme img {width: 35px;}
+.clickme {
+	position: relative;
+	animation: slide 2s infinite ease-in-out;
+}
+@keyframes slide {
+	from {
+	  top: 20px;
+	}
+	50% {
+	  top: 40px;
+	}
+	to {
+		top: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	header a.navbar-brand-mob{
+		width: 110px !important;
+	}
+	iframe {
+		margin-top: -90px;
+	}
+	footer .rights a.foot_logo {
+		display: none;
+	}
+	footer copyright {
+		margin-top: -10px;
+		text-align: center;
+	}
+	footer copyright span {
+		float: none;
+	}
+}
